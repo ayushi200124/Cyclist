@@ -55,9 +55,7 @@ do that, however, the marketing analyst team needs to better understand how annu
 casual riders would buy a membership, and how digital media could affect their marketing tactics. Moreno and her team are
 interested in analyzing the Cyclistic historical bike trip data to identify trends.
 
-<a name="ask"></a>
-## 3. Ask
-Three questions will guide the future marketing program:
+**Guidelines- Three questions will guide the future marketing program:**
 - How do annual members and casual riders use Cyclistic bikes differently?
 - Why would casual riders buy Cyclistic annual memberships?
 - How can Cyclistic use digital media to influence casual riders to become members?
@@ -71,6 +69,27 @@ You will produce a report with the following deliverables:
 4. A summary of your analysis
 5. Supporting visualizations and key findings
 6. Your top three recommendations based on your analysis
+
+<a name="ask"></a>
+## 3. Ask
+**Guiding questions**
+- What is the problem you are trying to solve?
+- How can your insights drive business decisions?
+ 
+**Key tasks**
+- Identify the business task
+- Consider key stakeholders
+
+**Deliverable**
+A clear statement of the business task
+
+My Approach-
+- Task 1: The problem statement clearly states two important facts.
+1. The marketing team has recognized that the revenue can increase when we convert our part-time customers into our full-time customers, i.e., make them take our annual subscription
+2. The data we have also states that 30% of our users have annual subscription but a large proportion of 70% has not used our premium membership but has used our services at least once.
+The first important problem I would be solving is concentrating on how to convert those 70% of our part-time customer base into our full-time customer. 
+
+- Task2: The secondary stakeholder here is the Cyclistic Marketing Executive Team and my primary stakeholder should be Lily Moreno. Right now I would be recommending Moreno and team, on what makes casual drivers not to take our annual subscription and what drives our annual customers to avail our services. This whill make us understand how both the sections of the customers are using our services and what are their expectations.
 
 <a name="prep"></a>
 ## 4. Prepare
