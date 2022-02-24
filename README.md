@@ -111,7 +111,7 @@ The first important problem I would be solving is concentrating on how to conver
 **Deliverable**
 A description of all data sources used
 
- My Approach-
+### My Approach-
 
 <a name="pro"></a>
 ## 5. Process
@@ -131,7 +131,7 @@ A description of all data sources used
 **Deliverable**
 Documentation of any cleaning or manipulation of data
 
-My Approach-
+### My Approach-
 
 <a name="ana"></a>
 ## 6. Analyze
@@ -151,7 +151,7 @@ My Approach-
 **Deliverable**
 A summary of your analysis
 
-My Approach-
+### My Approach-
 
 <a name="sh"></a>
 ## 7. Share
@@ -172,7 +172,7 @@ My Approach-
 **Deliverable**
 Supporting visualizations and key findings
 
-My Approach-
+### My Approach-
 
 <a name="act"></a>
 ## 8. Act
@@ -190,7 +190,7 @@ My Approach-
 **Deliverable**
 Your top three recommendations based on your analysis
 
- My Approach-
+### My Approach-
 
 
 <a name="wrap"></a>
