@@ -63,12 +63,12 @@ interested in analyzing the Cyclistic historical bike trip data to identify tren
 Moreno has assigned you the first question to answer: How do annual members and casual riders use Cyclistic bikes
 differently?
 You will produce a report with the following deliverables:
-1. A clear statement of the business task
-2. A description of all data sources used
-3. Documentation of any cleaning or manipulation of data
-4. A summary of your analysis
-5. Supporting visualizations and key findings
-6. Your top three recommendations based on your analysis
+- A clear statement of the business task
+- A description of all data sources used
+- Documentation of any cleaning or manipulation of data
+- A summary of your analysis
+- Supporting visualizations and key findings
+- Your top three recommendations based on your analysis
 
 <a name="ask"></a>
 ## 3. Ask
@@ -77,13 +77,13 @@ You will produce a report with the following deliverables:
 - How can your insights drive business decisions?
  
 **Key tasks**
-- Identify the business task
-- Consider key stakeholders
+1. Identify the business task
+2. Consider key stakeholders
 
 **Deliverable**
 A clear statement of the business task
 
-My Approach-
+### My Approach-
 - Task 1: The problem statement clearly states two important facts.
 1. The marketing team has recognized that the revenue can increase when we convert our part-time customers into our full-time customers, i.e., make them take our annual subscription
 2. The data we have also states that 30% of our users have annual subscription but a large proportion of 70% has not used our premium membership but has used our services at least once.
@@ -93,18 +93,106 @@ The first important problem I would be solving is concentrating on how to conver
 
 <a name="prep"></a>
 ## 4. Prepare
+**Guiding questions**
+- Where is your data located?
+- How is the data organized?
+- Are there issues with bias or credibility in this data? Does your data ROCCC?
+- How are you addressing licensing, privacy, security, and accessibility?
+- How did you verify the data’s integrity?
+- How does it help you answer your question?
+- Are there any problems with the data?
+ 
+**Key tasks**
+1. Download data and store it appropriately.
+2. Identify how it’s organized.
+3. Sort and filter the data.
+4. Determine the credibility of the data
+
+**Deliverable**
+A description of all data sources used
+
+ My Approach-
 
 <a name="pro"></a>
 ## 5. Process
+**Guiding questions**
+- What tools are you choosing and why?
+- Have you ensured your data’s integrity?
+- What steps have you taken to ensure that your data is clean?
+- How can you verify that your data is clean and ready to analyze?
+- Have you documented your cleaning process so you can review and share those results?
+ 
+ **Key tasks**
+1. Check the data for errors.
+2. Choose your tools.
+3. Transform the data so you can work with it effectively.
+4. Document the cleaning process.
+
+**Deliverable**
+Documentation of any cleaning or manipulation of data
+
+My Approach-
 
 <a name="ana"></a>
 ## 6. Analyze
+**Guiding questions**
+- How should you organize your data to perform analysis on it?
+- Has your data been properly formatted?
+- What surprises did you discover in the data?
+- What trends or relationships did you find in the data?
+- How will these insights help answer your business questions?
+ 
+ **Key tasks**
+1. Aggregate your data so it’s useful and accessible.
+2. Organize and format your data.
+3. Perform calculations.
+4. Identify trends and relationships.
+
+**Deliverable**
+A summary of your analysis
+
+My Approach-
 
 <a name="sh"></a>
 ## 7. Share
+**Guiding questions**
+- Were you able to answer the question of how annual members and casual riders use Cyclistic bikes differently?
+- What story does your data tell?
+- How do your findings relate to your original question?
+- Who is your audience? What is the best way to communicate with them?
+- Can data visualization help you share your findings?
+- Is your presentation accessible to your audience?
+ 
+ **Key tasks**
+1. Determine the best way to share your findings.
+2. Create effective data visualizations.
+3. Present your findings.
+4. Ensure your work is accessible.
+
+**Deliverable**
+Supporting visualizations and key findings
+
+My Approach-
 
 <a name="act"></a>
 ## 8. Act
+**Guiding questions**
+- What is your final conclusion based on your analysis?
+- How could your team and business apply your insights?
+- What next steps would you or your stakeholders take based on your findings?
+- Is there additional data you could use to expand on your findings?
+ 
+ **Key tasks**
+1. Create your portfolio.
+2. Add your case study.
+3. Practice presenting your case study to a friend or family member
+
+**Deliverable**
+Your top three recommendations based on your analysis
+
+ My Approach-
+
 
 <a name="wrap"></a>
 ## 9. Wrap Up
+
