@@ -85,10 +85,8 @@ A clear statement of the business task
 
 ### My Approach-
 - Task 1: The problem statement clearly states two important facts.
-1. The marketing team has recognized that the revenue can increase when we convert our part-time customers into our full-time customers, i.e., make them take our annual subscription
-2. The data we have also states that 30% of our users have annual subscription but a large proportion of 70% has not used our premium membership but has used our services at least once.
-The first important problem I would be solving is concentrating on how to convert those 70% of our part-time customer base into our full-time customer. 
-
+i. The marketing team has recognized that the revenue can increase when we convert our part-time customers into our full-time customers, i.e., make them take our annual subscription
+ii. The data we have also states that 30% of our users have annual subscription but a large proportion of 70% has not used our premium membership but has used our services at least once.We will analyze user behaviours on how annual members and casual riders use Cyclistic bikes differently to make recommendations on how to convert casual riders into annual members
 - Task2: The secondary stakeholder here is the Cyclistic Marketing Executive Team and my primary stakeholder should be Lily Moreno. Right now I would be recommending Moreno and team, on what makes casual drivers not to take our annual subscription and what drives our annual customers to avail our services. This whill make us understand how both the sections of the customers are using our services and what are their expectations.
 
 <a name="prep"></a>
@@ -112,6 +110,25 @@ The first important problem I would be solving is concentrating on how to conver
 A description of all data sources used
 
 ### My Approach-
+1. The dataset is made available in [12 Months Cyclistic Data](https://divvy-tripdata.s3.amazonaws.com/index.html) and the naming convention of the files are: YYYYMM-divvy-tripdata.csv . I have downloaded the data from 202102-divvy-tripdata.csv to 202201-divvy-tripdata.csv as the most recent 12-months analysis. Each dataset contains almost 100k to 400k rows and 13 columns. 
+    - ride_id : Unique id of each ride trip
+    - rideable_type : type of bicycle ridden, split between 3 categories - classic, docked and electric
+    - started_at : date and time of the start of the trip
+    - ended_at : date and time of the end of the trip
+    - start_station_name : Start station name
+    - start_station_id : Start station id
+    - end_station_name : End station name
+    - end_station_id : End station id
+    - start_lat : latitude of the start location
+    - start_lng : longitude of the start location
+    - end_lat : latitude of the end location
+    - end_lng : longitude of the end location
+    - member_casual : type of membership, either casual or member
+2. Additional data limitation that I have spotted from the above metadata is, due to no personal information available, I am unable to tell how often the same user uses the bike in the month and how frequently, and from which stations. Hence, I can only make the assumption that each ride id corresponds to a unique rider spread across the days of the month.
+3. I have taken a random sample of each dataset in order to reduce the complexity of the data and ease of using the spreadsheet. I reduced the population sample to 10k-10.5k rows (randon group n= total no. of cell/10k). Steps to execute random sampling:
+
+`select a cell -> =RANDBETWEEN(1,n) -> fill the entire column -> copy the column -> follow the link` -> [watch next steps](https://www.youtube.com/watch?v=bNUAQsThmAc)
+
 
 <a name="pro"></a>
 ## 5. Process
