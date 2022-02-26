@@ -125,7 +125,8 @@ A description of all data sources used
     - end_lng : longitude of the end location
     - member_casual : type of membership, either casual or member
 2. Additional data limitation that I have spotted from the above metadata is, due to no personal information available, I am unable to tell how often the same user uses the bike in the month and how frequently, and from which stations. Hence, I can only make the assumption that each ride id corresponds to a unique rider spread across the days of the month.
-3. I have taken a random sample of each dataset in order to reduce the complexity of the data and ease of using the spreadsheet. I reduced the population sample to 10k-10.5k rows (randon group n= total no. of cell/10k). Steps to execute random sampling:
+3. The data given has a consistency since the data types match with the kind of data stored and is well formatted under correct names. Further I will check for outliers in the analysis process. 
+4. I have taken a random sample of each dataset in order to reduce the complexity of the data and ease of using the spreadsheet. I reduced the population sample to 10k-10.5k rows (randon group n= total no. of cell/10k). Steps to execute random sampling:
 
 `select a cell -> =RANDBETWEEN(1,n) -> fill the entire column -> copy the column -> follow the link` -> [watch next steps](https://www.youtube.com/watch?v=bNUAQsThmAc)
 
@@ -149,7 +150,17 @@ A description of all data sources used
 Documentation of any cleaning or manipulation of data
 
 ### My Approach-
-
+In excel I performed some tasks-
+- Made a new column= month `ctrl+c -> write the column name -> ctrl+enter`
+- Made a new column= day_of_week `=WEEKDAY((start_time_cell),1)`
+- Made a new column= ride_length `=(started_at)-(ended_at)`
+- Made a new column= exact_start_time `copy started_at column -> paste -> format cells -> hh-mm AM\PM`
+- Made a new column= season `ctrl+c -> write the column name -> ctrl+enter`
+    - December,January, February= Winter
+    - March, April, May= Spring
+    - June, July, August= Summer
+    - September, October, November= Autumn
+- Removed duplicates if any `select the sheet -> data -> remove duplicate rows`
 <a name="ana"></a>
 ## 6. Analyze
 **Guiding questions**
