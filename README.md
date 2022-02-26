@@ -1,4 +1,4 @@
-# Cyclist
+# Cyclistic
 <img src="https://user-images.githubusercontent.com/79920441/155269317-7ba5e33e-b731-44ba-a9c3-d787bf8756ac.gif" width="300" height="200">
 
 You are a junior data analyst working in the marketing analyst team at Cyclistic, a bike-share company in Chicago. The director
@@ -180,7 +180,8 @@ In excel I performed some tasks-
 A summary of your analysis
 
 ### My Approach-
-
+Uploaded dataset to kaggle and started a new kernal to analyze the statistical informations in R. I have performed the following steps-
+- 
 <a name="sh"></a>
 ## 7. Share
 **Guiding questions**
