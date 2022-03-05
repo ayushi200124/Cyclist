@@ -129,7 +129,7 @@ A description of all data sources used
 4. I have taken a random sample of each dataset in order to reduce the complexity of the data and ease of using the spreadsheet. I reduced the population sample to 10k-10.5k rows (randon group n= total no. of cell/10k). Steps to execute random sampling:
 
 `select a cell -> =RANDBETWEEN(1,n) -> fill the entire column -> copy the column -> follow the link` -> [watch next steps](https://www.youtube.com/watch?v=bNUAQsThmAc)
-
+**However this approach was noob and it did not work at all since I lost considerable amount of data, mainly the knowledge of the amount of rides per month. I decided to switch back to the previous dataset and use R to clean it.**
 
 <a name="pro"></a>
 ## 5. Process
@@ -161,6 +161,8 @@ In excel I performed some tasks-
     - June, July, August= Summer
     - September, October, November= Autumn
 - Removed duplicates if any `select the sheet -> data -> remove duplicate rows`
+**I have discarded this approach and now will continue cleaning the data using R with all the given dataset**
+
 <a name="ana"></a>
 ## 6. Analyze
 **Guiding questions**
